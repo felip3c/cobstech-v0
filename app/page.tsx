@@ -230,8 +230,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Contato</h3>
               <ul className="space-y-2 text-gray-400">
-                <li>felipe.cobello@gmail.com</li>
-                <li>(11) 97466-8940</li>
+                <li>(11) 92114-8106</li>
                 <li>São Paulo, SP</li>
               </ul>
             </div>
