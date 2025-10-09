@@ -103,8 +103,19 @@ export default function HomePage() {
               Ver Demonstração
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3">
-              Falar com Especialista
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3"
+              asChild
+            >
+              <a 
+                href="https://wa.me/5511921148106?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20Cobs%20Tech" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Falar com Especialista
+              </a>
             </Button>
           </div>
         </div>
@@ -148,9 +159,9 @@ export default function HomePage() {
                       </li>
                     ))}
                   </ul>
-                  <Button className="w-full mt-6 bg-orange-500 hover:bg-orange-600 text-white">
+                  {/* <Button className="w-full mt-6 bg-orange-500 hover:bg-orange-600 text-white">
                     Saiba Mais
-                  </Button>
+                  </Button> */}
                 </CardContent>
               </Card>
             ))}
@@ -198,8 +209,19 @@ export default function HomePage() {
             <Button size="lg" className="bg-white text-orange-500 hover:bg-gray-100 px-8 py-3">
               Solicitar Demonstração
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-orange-600 px-8 py-3">
-              Falar com Consultor
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-white text-white hover:bg-orange-600 px-8 py-3"
+              asChild
+            >
+              <a 
+                href="https://wa.me/5511921148106?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20Cobs%20Tech" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Falar com Consultor
+              </a>
             </Button>
           </div>
         </div>
