@@ -64,7 +64,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Bot className="h-8 w-8 text-orange-500" />
-              <span className="text-2xl font-bold text-gray-900">Cobs AI</span>
+              <span className="text-2xl font-bold text-gray-900">Cobs Tech</span>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
               <Link href="#servicos" className="text-gray-600 hover:text-orange-500 transition-colors">
@@ -212,7 +212,7 @@ export default function HomePage() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Bot className="h-8 w-8 text-orange-500" />
-                <span className="text-2xl font-bold text-white">Cobs AI</span>
+                <span className="text-2xl font-bold text-white">Cobs Tech</span>
               </div>
               <p className="text-gray-400">
                 Transformando negócios com inteligência artificial avançada e automação inteligente.
@@ -230,14 +230,14 @@ export default function HomePage() {
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Contato</h3>
               <ul className="space-y-2 text-gray-400">
-                <li>contato@cobsai.com</li>
-                <li>(11) 9999-9999</li>
+                <li>felipe.cobello@gmail.com</li>
+                <li>(11) 97466-8940</li>
                 <li>São Paulo, SP</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Cobs AI. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Cobs Tech. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
